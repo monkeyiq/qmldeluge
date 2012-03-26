@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Name=Deluge
+Exec=/home/user/qmldeluge/run.sh
+Icon=/home/user/qmldeluge/icon.png
+X-Window-Icon=/home/user/qmldeluge/icon.png
+X-Window-Icon-Dimmed=/home/user/qmldeluge/icon.png

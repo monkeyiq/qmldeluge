@@ -1,7 +1,3 @@
-SETUP:
-At the top of qmldeluge.qml you will see cfgURL and cfgPasswrd which you have to set 
-to the server and password you want to use. Using the SQLite offline storage API to set and get the server address, user password and some other settings might be handy...
-http://www.developer.nokia.com/Community/Wiki/How-to_create_a_persistent_settings_database_in_Qt_Quick_%28QML%29
 
 The desktop entry expects the installation to live in /home/user/qmldeluge 
 and for you to run the app inside qmlviewer. Running as root on the device

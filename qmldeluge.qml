@@ -248,12 +248,12 @@ Rectangle {
 //		    console.log("starting to loop");
 		    var x = JSON.parse(data);
 		    updateModel( torrentModel, x["result"]["torrents"] );
+		    status.text = "Updated at:" + Date().toString();
 		},
 		function(status, statusText) {
 		    console.log('error', status, statusText)
 		})
 	
-	status.text = "Updated at:" + Date().toString();
     }
 
     function updateModel( model, data ) 

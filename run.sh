@@ -1,4 +1,5 @@
 #!/bin/sh
 cd ~/qmldeluge
-./qmlviewer -frameless -fullscreen qmldeluge.qml 
+. ~/bin/intranet-source
+$SOCKS ./qmlviewer -frameless -fullscreen qmldeluge.qml 
 
